@@ -123,6 +123,9 @@ if __name__ == '__main__':
     print(AsciiTable(table).table)
     pl = Playlist()
     pl.get_playlist(id_up)
+    pl.get_playlist(id_new)
+    pl.get_playlist(id_ori)
+    pl.get_playlist(id_hot)
 
     """
                     测试单元 begin
